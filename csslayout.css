@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+#logo {
+  height: 33px;
+  width: 268px;
+}
+* {
+  top: 0;
+}
+body {
+  font-family: 'Work Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+/* .nav {
+  display: flex;
+} */
+
+.nav > li {
+  display: inline-block;
+  padding: 0px 10px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-family: Roboto;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+a:hover {
+  color: rgb(0, 179, 155);
+}
+#dep {
+  position: relative;
+}
+.sub-menu {
+  position: absolute;
+  display: none;
+  /* border: 1px solid black; */
+  margin-top: 25px;
+  width: 200px;
+  margin-left: -120px;
+}
+.sub-menu ul li {
+  list-style: none;
+}
+#dep:hover .sub-menu {
+  display: block;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin: 50px;
+}
+.paragraphe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  font-family: Roboto;
+  color: rgb(116, 116, 116);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 20px;
+}
+.main h1 {
+  font-family: 'Work Sans', Arial, sans-serif;
+  color: rgb(0, 179, 155);
+  /* font-size: 34px; */
+  font-weight: 300;
+  /* line-height: 44.2px; */
+}
+.p1 {
+  margin-right: 10px;
+  width: 500px;
+}
+.p2 {
+  margin-left: 10px;
+  width: 500px;
+}
+.main2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 50px;
+}
+.card {
+  /* width: 33.33%; */
+  margin-right: 20px;
+  border-radius: 10px;
+  height: 300px;
+  padding: 2em 2em 0;
+}
+.card h1 {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
+}
+.card h2 {
+  color: white;
+  font-weight: 300;
+}
+.patients {
+  background-color: #00b39b;
+}
+
+.doctors {
+  background-color: #3d83df;
+}
+.clinics {
+  background-color: #1b2734;
+}
+select {
+  border: none;
+  text-decoration: underline;
+  font-size: medium;
+}
+.patients select {
+  background-color: #00b39b;
+  color: white;
+}
+.doctors select {
+  background-color: #3d83df;
+  color: white;
+}
+.clinics select {
+  background-color: #1b2734;
+  color: white;
+}
+.main3 {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+.main3 h1 {
+  font-size: 1.425em;
+  font-weight: 400;
+  color: #00b39b;
+  width: 32%;
+}
+.list {
+  width: 68%;
+}
+.list > li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 10px;
+  height: 5px;
+}
+.list a path {
+  fill: hsla(0, 0%, 67%, 0.7);
+}
+.main4 {
+  display: flex;
+  background-color: #00b39b21;
+  /* height: 500px; */
+  padding: 0 80px 50px 80px;
+}
+
+.carte {
+  margin-right: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  height: 200px;
+  width: 180px;
+  font-size: medium;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.carte p {
+  font-size: 0.6em;
+  color: rgb(116, 116, 116);
+}
+.group1 {
+  text-align: left;
+  padding-top: 70px;
+  width: 700px;
+}
+
+.group2 {
+  padding-top: 60px;
+}
+.group1 h1 {
+  color: #00b39b;
+  font-weight: 100;
+}
+.group1 p {
+  font-size: smaller;
+}
+
+.group3 {
+  padding-top: 30px;
+}
+.main4 img {
+  height: 30px;
+  width: 30px;
+}
+.main4 p {
+  color: rgb(116, 116, 116);
+}
+.main4 h3 {
+  color: #00b39b;
+  font-weight: 100;
+}
+li a img {
+  width: 100px;
+}
+.main5 {
+  max-width: 460px;
+  margin: 0 auto 4.1875rem;
+  font-size: 0.7em;
+  text-align: center;
+  padding-top: 60px;
+}
+.main5 h1 {
+  font-weight: 100;
+  color: #00b39b;
+}
+.main5 p {
+  color: rgb(116, 116, 116);
+}
+.main6 {
+  padding-left: 30px;
+}
+.box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.barre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.b a img {
+  width: 250px;
+  border-radius: 5px;
+}
+.b {
+  padding-right: 15px;
+}
+button {
+  height: 30px;
+  font-size: xx-small;
+  width: 100px;
+  background-color: #3d83df;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+h5 {
+  margin-top: 5px;
+  color: rgb(116, 116, 116);
+}
+.box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 15px;
+}
+.box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-top: 15px;
+  padding-left: 90px;
+}
+.main7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.main7 h1 {
+  font-weight: lighter;
+  font-size: 1.5em;
+  color: black;
+}
+.main7 button {
+  width: 160px;
+  font-weight: 300;
+}
+footer {
+  text-align: center;
+  padding: 1em 0;
+  border-top: 1px solid #eef2f2;
+}
+footer p {
+  font-size: x-small;
+  color: rgb(116, 116, 116);
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: bold;
+}
+footer a {
+  color: rgb(28, 28, 187);
+  font-weight: bolder;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: rgb(28, 28, 187);
+}
